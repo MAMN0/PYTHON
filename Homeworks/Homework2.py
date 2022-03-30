@@ -62,3 +62,4 @@ print()
 C = input("Input Temperature: ")
 F = (int(C) * 9 / 5) + 32
 print("Your Temperature in Farenhait is", F)
+# 7 completed
