@@ -7,6 +7,7 @@ print(message)
 Example += 1
 print()
 # 1 completed
+
 print(Example, "Example")
 print()
 a, b = 1, 4
@@ -16,6 +17,7 @@ print(a, b)
 print()
 Example += 1
 # 2 completed
+
 print(Example, "Example")
 print()
 name, last_name = input("Input Your Name: "), input("Input Your Last Name: ")
@@ -24,10 +26,10 @@ print("Hello", name, last_name)
 print()
 Example += 1
 # 3 completed
+
 print()
 print(Example, "Example")
 print()
-
 work_time = input("შეიყვანე შენი სამუშაო საათები თვეში: ")
 work_money = input("შეიყვანე შენი საათობრივი სახელფასო განაკვეთი: ")
 print()
@@ -36,15 +38,16 @@ print("შენი შემოსავალია", money)
 print()
 Example += 1
 # 4 complected
+
 print(Example, "Example")
 print()
 n1, n2, n3 = input("Input Number: "), input("Input Number: "), input("Input Number: ")
-x = (int(n1)+int(n2)+int(n3))/3
+x = (int(n1) + int(n2) + int(n3)) / 3
 Example += 1
-
 print()
 print(x)
 # 5 completed
+
 print()
 print(Example, "Example")
 print()
