@@ -38,7 +38,7 @@ Example += 1
 # 4 complected
 print(Example, "Example")
 print()
-n1, n2, n3= input("Input Number: "), input("Input Number: "), input("Input Number: ")
+n1, n2, n3 = input("Input Number: "), input("Input Number: "), input("Input Number: ")
 x = (int(n1)+int(n2)+int(n3))/3
 Example += 1
 
@@ -51,15 +51,15 @@ print()
 name = input("Input Name: ")
 age = input("Input Age: ")
 years100 = 2022 + (100 - int(age))
-
 print()
 print(name, "You Will Be 100 Years Old in", years100)
 print()
 Example += 1
 # 6 complected
+
 print(Example, "Example")
 print()
 C = input("Input Temperature: ")
 F = (int(C) * 9 / 5) + 32
-print("Your Temperature in Farenhait is", F)
+print("Your Temperature in Farenheit is", F)
 # 7 completed
