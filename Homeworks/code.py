@@ -1,10 +1,9 @@
-# # just my practical code file, i will train in this file
-# # In First Lesson we learned function print and math algorithms
-# # We learned logic in scratch so i think everything will be normal
-# #Lesson 1
+name = input("Input Your Name: ")
+last_name = input("Input Your Last Name: ")
+TEXT1 = "I Am Nikusha's First Program And I Will Help You Wenn Nikusha will Upgrade Me."
+TEXT2 = "Now I Can Only Say Texts And Say Your Full Name."
 
-# print("Hallo Nikusha, I am jarvis.")
-# print("I am 13 years old and i'l teach you PYTHON.")
 
-# #Homework 1
-# was very eazy
+print("Hallo", name, last_name)
+print(TEXT1)
+print(TEXT2)
