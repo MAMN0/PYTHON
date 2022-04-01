@@ -33,7 +33,7 @@ print()
 work_time = input("შეიყვანე შენი სამუშაო საათები თვეში: ")
 work_money = input("შეიყვანე შენი საათობრივი სახელფასო განაკვეთი: ")
 print()
-money = int(work_time) * int(work_money)
+money = float(work_time) * float(work_money)
 print("შენი შემოსავალია", money)
 print()
 Example += 1
@@ -42,7 +42,7 @@ Example += 1
 print(Example, "Example")
 print()
 n1, n2, n3 = input("Input Number: "), input("Input Number: "), input("Input Number: ")
-x = (int(n1) + int(n2) + int(n3)) / 3
+x = (float(n1) + float(n2) + float(n3)) / 3
 Example += 1
 print()
 print(x)
@@ -63,6 +63,6 @@ Example += 1
 print(Example, "Example")
 print()
 C = input("Input Temperature: ")
-F = (int(C) * 9 / 5) + 32
+F = (float(C) * 9 / 5) + 32
 print("Your Temperature in Farenheit is", F)
 # 7 completed
