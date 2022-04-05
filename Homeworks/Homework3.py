@@ -49,3 +49,4 @@ Example += 1
 print()
 Number = input(Text)
 print(int(Number)-int(Number)//10*10)
+print()
