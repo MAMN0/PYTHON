@@ -35,16 +35,17 @@ print(Example, "Example")
 Example += 1
 print()
 N1, N2, N3 = input(Text), input(Text), input(Text)
-if N1 < N2 and N1 < N3:
+if N1 <= N2 and N1 <= N3:
     print(N1, "Is Lower")
 else:
-    if N2 < N1 and N2 < N3:
+    if N2 <= N1 and N2 <= N3:
         print(N2, "Is Lower")
     else:
-        print(N3, "Is Lower")
+        if N3 <= N1 and N3 <= N2:
+            print(N3, "Is Lower")
 print()
 print(Example, "Example")
 Example += 1
 print()
 Number = input(Text)
-print(int(int(Number)-(int(int(Number)/10)*10)))
+print(int(Number)-int(Number)//10*10)
