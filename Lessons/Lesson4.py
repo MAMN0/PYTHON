@@ -15,3 +15,4 @@ elif Number >= 0 and Number <= 40:
     print("Failed")
 else:
     print("Point Is Incorrect")
+
