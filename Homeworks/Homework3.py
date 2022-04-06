@@ -25,16 +25,16 @@ print()
 print(Example, "Example")
 Example += 1
 print()
-N1, N2 = input(Text), input(Text)
-if float(N1) > 10 and float(N2) > 10:
-    print("ამ რიცხვების საშუალო არითმეტიკულია", (float(N1) + float(N2)) / 2)
+N1, N2 = float(input(Text)), float(input(Text))
+if N1 > 10 and N2 > 10:
+    print("ამ რიცხვების საშუალო არითმეტიკულია", (N1 + N2) / 2)
 else:
-    print("ამ რიცხვების ნამრავლია", float(N1) * float(N2))
+    print("ამ რიცხვების ნამრავლია", N1 * N2)
 print()
 print(Example, "Example")
 Example += 1
 print()
-N1, N2, N3 = input(Text), input(Text), input(Text)
+N1, N2, N3 = float(input(Text)), float(input(Text)), float(input(Text))
 if N1 <= N2 and N1 <= N3:
     print(N1, "Is Lower")
 else:
@@ -47,6 +47,6 @@ print()
 print(Example, "Example")
 Example += 1
 print()
-Number = input(Text)
-print(int(Number)-int(Number)//10*10)
+Number = int(input(Text))
+print(Number - Number // 10 * 10)
 print()
