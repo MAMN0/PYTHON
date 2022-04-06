@@ -12,5 +12,7 @@ elif Number > 51 and Number < 60:
     print("E")
 elif Number > 41 and Number < 50:
     print("FX")
-else:
+elif Number > 0 and Number < 40:
     print("Failed")
+else:
+    print()
