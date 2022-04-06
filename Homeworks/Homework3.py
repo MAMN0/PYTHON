@@ -48,5 +48,5 @@ print(Example, "Example")
 Example += 1
 print()
 Number = int(input(Text))
-print(Number - Number // 10 * 10)
+print(Number % 10)
 print()
