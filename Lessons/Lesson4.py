@@ -13,3 +13,5 @@ elif Number >= 41 and Number <= 50:
     print("FX")
 elif Number >= 0 and Number <= 40:
     print("Failed")
+else:
+    print("Point Is Incorrect")
