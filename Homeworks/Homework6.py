@@ -21,19 +21,20 @@ print(example, "Example")
 example += 1
 print()
 # 2. შეიყვანეთ 2 დადებითი მთელი რიცხვი. იპოვეთ ამ ორი რიცხვის უმცირესი საერთო ჯერადი.
-n = 0
 n1 = int(input(text))
 n2 = int(input(text))
-low = n1
-if n2 < n1:
-    low = n2
-for i in range(2, low + 1):
-    if n1 % i == 0 and n2 % i == 0:
-        n = i
+n1, n2 = int(input(text)), int(input(text))
+i = 0
+while True:
+    i += 1
+    if n1 < 0 or n2 < 0:
+        print("ERROR")
         break
-if int(n) == 0:
-    print("NO RESULT")
-print(n)
+    if i % n1 == 0 and i % n2 == 0:
+        print(i)
+        break
+
+print(n3)
 input()
 print()
 print(example, "Example")
@@ -47,7 +48,6 @@ if n % 2 != 0:
     h = n
 for i in range(9):
     n = int(input(text))
-    if n % 2 != 0:
-        if n <= h:
-            h = n
+    if n % 2 != 0 and n <= h:
+        h = n
 print(h)
