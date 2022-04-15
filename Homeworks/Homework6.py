@@ -50,4 +50,6 @@ for i in range(9):
     n = int(input(text))
     if n % 2 != 0 and n <= h:
         h = n
+else:
+    print("NO RESULT")
 print(h)
