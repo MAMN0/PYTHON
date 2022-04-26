@@ -28,7 +28,7 @@ Number3 = int(input(text2))
 print()
 print("Most Greatest is", max(Number1, Number2, Number3))
 print()
-
+print()
 
 # 3. გამოთვალეთ 3 ხარისხად 8 ფუნქციის გამოყენებით და დაბეჭდეთ შედეგი. ასევე გამოთვალეთ 2 ხარისხად 9, 4 ხარისხად 6 და დაბეჭდეთ მიღებული შედეგი.
 print(example, "Example")
