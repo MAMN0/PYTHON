@@ -28,7 +28,7 @@ print(example(), "Example")
 print()
 # 3. შექმენით ფუნქცია, რომელიც დაითვლის (დააბრუნებს) არგუმენტად გადაცემული რიცხვის კუბს. გამოიძახეთ ფუნქცია რამდენიმეჯერ და დაბეჭდეთ მიღებული შედეგი.
 number_x = float(input("Input Number: "))
-def qbrt(x):
+def qube(x):
     return x * x * x
 print(qbrt(number_x))
 
