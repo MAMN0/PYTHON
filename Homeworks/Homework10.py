@@ -95,10 +95,7 @@ print()
 def prime(x):
     for i in range(2, x):
         if x % i == 0:
-            return True
-
+            return False
+    return True
 number_x = int(input("Input Number: "))
-if prime(number_x):
-    print(False)
-else:
-    print(True)
+print(prime(number_x))
