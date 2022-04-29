@@ -7,22 +7,22 @@ print(example(), "Example")
 print()
 # 1. შექმენით ფუნქცია, რომელსაც არგუმენტად გადაეცემა ორი რიცხვი და დაითვლის (დააბრუნებს) მათ საშუალო არითმეტიკულს. გამოიძახეთ
 # ფუნქცია 3-ჯერ სხვადასხვა რიცხვებისთვის და დაბეჭდეთ შედეგი.
-def task1(x, y):
+def sashualo_return(x, y):
     return (x + y) / 2
 number_x = float(input("Input Number: "))
 number_y = float(input("Input NUmber: "))
-print(task1(number_x, number_y))
+print(sashualo_return(number_x, number_y))
 print()
 print(example(), "Example")
 print()
 #2. დაწერეთ ფუნქცია, რომელსაც არგუმენტად გადაეცემა ორი რიცხვი და დაითვლის მათ საშუალო არითმეტიკულს და დაბეჭდავს შედეგს (გაითვალისწინეთ რომ დაბეჭდვა უნდა მოხდეს ფუნქციის შიგნით - ფუნქცია
 #  არ აბრუნებს მნიშვნელობას). გამოიძახეთ ფუნქცია 3-ჯერ სხვადასხვა რიცხვებისთვის.
-def task2(x, y):
+def sashualo_print(x, y):
     print((x + y) / 2)
 for i in range(0, 3):
     number_x = float(input("Input Number: "))
     number_y = float(input("Input NUmber: "))
-    task2(number_x, number_y)
+    sashualo_print(number_x, number_y)
 print()
 print(example(), "Example")
 print()
@@ -30,14 +30,14 @@ print()
 number_x = float(input("Input Number: "))
 def qube(x):
     return x * x * x
-print(qbrt(number_x))
+print(qube(number_x))
 
 print()
 print(example(), "example")
 print()
 
 # 4. შექმენით ფუნქცია, რომელიც დაითვლის (დააბრუნებს) ორ რიცხვს შორის მინიმალურ მნიშვნელობას. გამოიძახეთ ფუნქცია და დაბეჭდეთ შედეგი. (პარამეტრად გადაეცით ნებისმიერი ორი რიცხვი).
-def min(x, y):
+def minimumi(x, y):
     if x < y:
         return x
     else:
@@ -46,7 +46,7 @@ def min(x, y):
 number_x = float(input("Input Number: "))
 number_y = float(input("Input Number: "))
 
-print(min(number_x, number_y))
+print(minimumi(number_x, number_y))
 
 print()
 print(example(), "Example")
@@ -55,15 +55,15 @@ print()
 # 5. დაწერეთ ფუნქცია, რომელიც შეამოწმებს პარამეტრად გადაცემული რიცხვი არის თუ არა კენტი. თუ კენტია, დააბრუნოს მნიშვნელობა True,
 # თუ არადა - False. შეამოწმეთ რამდენიმე რიცხვისთვის და დაბეჭდეთ შედეგი.
 
-def is_not_even(x):
+def is_even(x):
     if x % 2 == 1:
         return True
     else:
         return False
 number_x = int(input("Input Number: "))
-print(is_not_even(number_x))
+print(is_even(number_x))
 number_x = int(input("Input Number: "))
-print(is_not_even(number_x))
+print(is_even(number_x))
 
 print()
 print(example(), "Example")
