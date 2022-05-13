@@ -1,6 +1,6 @@
 #1. დაწერეთ პროგრამა, რომლის მეშვეობით შექმნით ფაილს იმავე დირექტორიაში (საქაღალდეში), ჩაწერეთ მასში ნებისმიერი ტექსტი და დახურეთ ფაილი.
-file_object = open('homeworkfile.txt', 'r')
-print(file_object.read())
+file_object = open('homeworkfile.txt', 'w')
+print(file_object.write("asdfjakfh"))
 file_object.close()
 # 2. დაწერეთ პროგრამა, რომლის მეშვეობით გახსნით ფაილს, წაიკითხავთ კონტენტს და დაბეჭდავთ ეკრანზე. დაითვალეთ სიმბოლოების რაოდენობა ფაილში.
 file_object = open('homeworkfile.txt', 'r')
