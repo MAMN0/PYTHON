@@ -19,8 +19,8 @@ with open("Data.txt", "a") as Data:
             name = input("Input Your Name > ")
             last_name = input("Input Your Last Name > ")
             while True:
-                Password = input("Input Your New Password (First Symbol Must Be Upper) > ")
-                if Password[0] in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+                Password = input("Input Your New Password (First Symbol Must Be Upper and min 8 letter) > ")
+                if Password[0] in "ABCDEFGHIJKLMNOPQRSTUVWXYZ" and len(Password) >= 8:
                     break
             Mail = f'{name}.{last_name}@gmail.com'
 
@@ -38,7 +38,7 @@ with open("Data.txt", "r") as Data:
             is_mail = True
         else:
             print("Wrong Mail")
-        if Password[0] in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+        if Password[0] in "ABCDEFGHIJKLMNOPQRSTUVWXYZ" and len(Password) >= 8:
             is_password = True
         else:
             print("Wrong Password")
@@ -105,6 +105,6 @@ while True:
                     if i + 1 == 3 and (number != secret or number != str(secret)):
                         print(f"You Lose, Your Score Is {score}")
                         break
+
 with open("Data.txt", "w") as Data:
     Data.write(data)
-print(data)
