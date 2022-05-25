@@ -16,7 +16,7 @@ def root(x):
     for i in range(x):
         if i ** 2 == x:
             is_done = True
-            return i
+            return is_done
     if is_done == False:
         return False
 
